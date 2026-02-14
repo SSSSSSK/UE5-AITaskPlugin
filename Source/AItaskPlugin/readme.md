@@ -1,0 +1,4 @@
+这是一个http插件，用于访问Gemini的api以获取对话结果
+你可以在“Content/Data/DT_AIPrompts”数据表中修改提示词
+Data/DT_AIModels数据表中目前填写了常用的模型
+

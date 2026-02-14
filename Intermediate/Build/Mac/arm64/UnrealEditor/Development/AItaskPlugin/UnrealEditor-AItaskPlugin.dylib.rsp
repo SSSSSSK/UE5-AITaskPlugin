@@ -1,0 +1,38 @@
+-L/usr/lib/swift
+-arch arm64
+-isysroot "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+-target arm64-apple-macos14.00
+-dead_strip
+-dynamiclib
+-headerpad_max_install_names
+-current_version 4313.93.11
+-compatibility_version 5.6.0
+-rpath @loader_path/ -rpath @executable_path/
+"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/Current/MultitouchSupport.tbd"
+"../Binaries/Mac/UnrealEditor-CoreUObject.dylib"
+-rpath "@loader_path/../../../../../../../../Shared/Epic Games/UE_5.6/Engine/Binaries/Mac"
+"../Binaries/Mac/UnrealEditor-Engine.dylib"
+"../Binaries/Mac/UnrealEditor-Slate.dylib"
+"../Binaries/Mac/UnrealEditor-SlateCore.dylib"
+"../Binaries/Mac/UnrealEditor-Core.dylib"
+"../Binaries/Mac/UnrealEditor-InputCore.dylib"
+"../Binaries/Mac/UnrealEditor-HTTP.dylib"
+"../Binaries/Mac/UnrealEditor-Json.dylib"
+"../Binaries/Mac/UnrealEditor-JsonUtilities.dylib"
+"../Binaries/Mac/UnrealEditor-UMG.dylib"
+-framework "AVFoundation"
+-framework "CoreVideo"
+-framework "CoreMedia"
+-framework "Cocoa"
+-framework "Carbon"
+-framework "IOKit"
+-framework "Security"
+-framework "UniformTypeIdentifiers"
+-framework "Network"
+-framework "ScreenCaptureKit"
+-framework "SystemConfiguration"
+-install_name "@rpath/UnrealEditor-AItaskPlugin.dylib"
+"/Users/z/Documents/Unreal Projects/AChannProject/Plugins/AItaskPlugin/Intermediate/Build/Mac/arm64/UnrealEditor/Development/AItaskPlugin/Module.AItaskPlugin.cpp.o"
+"/Users/z/Documents/Unreal Projects/AChannProject/Plugins/AItaskPlugin/Intermediate/Build/Mac/arm64/UnrealEditor/Development/AItaskPlugin/AITaskSubsystem.cpp.o"
+"/Users/z/Documents/Unreal Projects/AChannProject/Plugins/AItaskPlugin/Intermediate/Build/Mac/arm64/UnrealEditor/Development/AItaskPlugin/AItaskPlugin.cpp.o"
+-o "/Users/z/Documents/Unreal Projects/AChannProject/Plugins/AItaskPlugin/Binaries/Mac/UnrealEditor-AItaskPlugin.dylib"
